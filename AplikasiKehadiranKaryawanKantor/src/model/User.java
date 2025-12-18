@@ -34,4 +34,28 @@ public abstract class User {
     public String getRole() {
         return "USER";
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPasswordHash() {
+        return passwordHash;
+    }
+
+    public boolean isAktif() {
+        return aktif;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
 }

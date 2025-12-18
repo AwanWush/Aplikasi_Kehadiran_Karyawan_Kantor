@@ -21,4 +21,20 @@ public class Perusahaan {
         this.namaPerusahaan = nama;
         this.alamat = alamat;
     }
+
+    public String getNamaPerusahaan() {
+        return namaPerusahaan;
+    }
+    
+    public void setNamaPerusahaan(String nama) {
+        this.namaPerusahaan = nama;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+    
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
 }

@@ -19,7 +19,11 @@ public class Departemen {
         this.perusahaan = perusahaan;
     }
 
-    public String getNama() {
+    public int getIdDepartemen() {
+        return idDepartemen;
+    }
+
+    public String getNamaDepartemen() {
         return namaDepartemen;
     }
 }

@@ -20,6 +20,10 @@ public class Jabatan {
     public String getNama() {
         return nama;
     }
+
+    public int getIdJabatan() {
+        return idJabatan;
+    }
     
     public void setNama(String nama) {
         this.nama = nama;

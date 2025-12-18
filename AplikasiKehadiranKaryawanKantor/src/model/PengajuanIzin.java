@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package model;
-
+        
 import java.time.LocalDate;
 
 /**
@@ -33,7 +33,7 @@ public class PengajuanIzin {
     public enum JenisIzin {
         IZIN, SAKIT, CUTI
     }
-    
+
     public enum StatusPengajuan {
         PENDING, DISETUJUI, DITOLAK
     }
